@@ -2,9 +2,9 @@
 
 A browser-based tool for turning an image into a useful colour palette and ready-to-copy creative code.
 
-**[Try the browser app](https://anyalitica.github.io/color-palette-extractor/)**
+**[Try the browser app](https://comppalette.github.io/color-palette-extractor/)**
 
-[![Colour Palette Extractor showing the source image, generated palette, and code output](assets/app_screenshot.png)](https://anyalitica.github.io/color-palette-extractor/)
+[![Colour Palette Extractor showing the source image, generated palette, and code output](assets/app_screenshot.png)](https://comppalette.github.io/color-palette-extractor/)
 
 ## What it does
 
@@ -73,7 +73,7 @@ Every mode produces weighted candidates. A shared post-processing step filters p
 Node.js 24 or newer is recommended.
 
 ```bash
-git clone https://github.com/anyalitica/color-palette-extractor.git
+git clone https://github.com/comppalette/color-palette-extractor.git
 cd color-palette-extractor/web
 npm ci --legacy-peer-deps
 npm run dev
@@ -98,7 +98,7 @@ Tests cover deterministic extraction, non-power-of-two palette sizes, similarity
 
 The GitHub Actions workflow type-checks, tests, and builds `web/` before publishing `web/dist/` to GitHub Pages after changes reach `main`. Vite uses relative asset paths so the app works at the repository URL:
 
-`https://anyalitica.github.io/color-palette-extractor/`
+`https://comppalette.github.io/color-palette-extractor/`
 
 ## Original Streamlit app
 
@@ -122,6 +122,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Author
 
-Designed and developed by [Anya Prosvetova](https://anyalitica.dev).
+Designed and developed by [Anya Prosvetova](https://comppalette.dev).
 
-*Have questions, suggestions, or an interesting palette to share? Open an issue on the [GitHub repository](https://github.com/anyalitica/color-palette-extractor/issues) or reach out to [@Anyalitica](https://github.com/anyalitica).*
+*Have questions, suggestions, or an interesting palette to share? Open an issue on the [GitHub repository](https://github.com/comppalette/color-palette-extractor/issues) or reach out to [@CompPalette](https://github.com/comppalette).*

@@ -1715,5 +1715,5 @@ st.markdown("---")
 st.markdown("""
 🎨 Colour palette extractor | Built with Streamlit & scikit-learn
             
-Designed by: Anya Prosvetova, [anyalitica.dev](https://www.anyalitica.dev/)
+Designed by: Anya Prosvetova, [comppalette.dev](https://www.comppalette.dev/)
 """, unsafe_allow_html=True)
